@@ -1,0 +1,9 @@
+INDEX VERSION 1.131+C:\Users\miria\Documents\Projetos\ProjetoIntegrador-BandoDeDados\armazemNatural\armazemNatural\.metadata\.plugins\org.eclipse.jdt.core
+3883950653.index
+2313773911.index
+133772374.index
+1138488590.index
+490565024.index
+1797797733.index
+41940460.index
+222170967.index
