@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\miria\Documents\Projetos\Projeto-Integrador\armazemNatural\armazemNatural"/>
+			<item value="C:\Users\miria\Documents\Projetos\Blog-Pessoal\blogPessoal\blogPessoal"/>
 			<item value="C:\Users\miria\Documents\Projetos\ProjetoIntegrador-BancoDeDados\spring-e-commerce\armazemNatural\armazemNatural"/>
 		</list>
 		<list key="projectNameTemplate">
