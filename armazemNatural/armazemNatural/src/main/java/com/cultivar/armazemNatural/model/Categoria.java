@@ -12,6 +12,8 @@ import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
+import org.hibernate.validator.constraints.URL;
+
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @Entity
@@ -27,6 +29,7 @@ public class Categoria {
 	private String nome;
 	
 	@NotNull
+	@URL
 	@Size(min = 2, max = 255)
 	private String imagem;
 	
