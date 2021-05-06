@@ -11,47 +11,33 @@ import javax.persistence.Table;
 import javax.validation.constraints.Digits;
 import javax.validation.constraints.NotNull;
 
-import org.hibernate.validator.constraints.URL;
-
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @Entity
 @Table(name = "tb_produto")
 public class Produto {
-	
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
-	
+
 	@NotNull
 	private String nome;
-	
-	@NotNull
+
 	private String descricao;
-	
+
 	@NotNull
 	@Digits(integer = 10, fraction = 2)
 	private BigDecimal preco;
-	
-	@NotNull
+
 	private String marca;
-	
-	@NotNull
+
 	private String fornecedor;
-	
-	@NotNull
+
 	private long qtdEstoque;
-	
-	@NotNull
-	@URL
+
 	private String imagem;
-	
-	@NotNull
-	private long peso;
-	
-	@NotNull
-	boolean ativo;
-	
+
 	@ManyToOne
 	@JsonIgnoreProperties("produto")
 	private Categoria categoria;
@@ -118,22 +104,6 @@ public class Produto {
 
 	public void setImagem(String imagem) {
 		this.imagem = imagem;
-	}
-
-	public long getPeso() {
-		return peso;
-	}
-
-	public void setPeso(long peso) {
-		this.peso = peso;
-	}
-
-	public boolean isAtivo() {
-		return ativo;
-	}
-
-	public void setAtivo(boolean ativo) {
-		this.ativo = ativo;
 	}
 
 	public Categoria getCategoria() {

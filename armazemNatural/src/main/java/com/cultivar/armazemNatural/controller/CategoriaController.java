@@ -1,4 +1,4 @@
-package com.cultivar.armazemNatural.Controller;
+package com.cultivar.armazemNatural.controller;
 
 import java.util.List;
 
